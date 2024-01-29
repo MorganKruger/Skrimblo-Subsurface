@@ -4,14 +4,14 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 1920,
-    height: 1000,
-    x: 0,
-    y: 1080,
+    width: 400,
+    height: 300,
+    x: 1300,
+    y: 200,
     movable: true,
-    maximizable: true,
-    // frame: false,
-    resizable: true,
+    maximizable: false,
+    frame: false,
+    resizable: false,
     alwaysOnTop: true,
     level: "screen",
     webPreferences: {
